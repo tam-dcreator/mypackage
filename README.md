@@ -9,17 +9,49 @@ This library was created as an example of how to publish your own python package
 
 ## Installation
 
-You can install MyPackage using pip:
+Instructions for users:
 
-```bash
-pip install git+https://github.com/tam-dcreator/mypackage.git
-```
+You can install MyPackage using pip, but first you have to create a virtual environment.
 
-If you need to **install a later version** of your package, then use:  
+1.  Create a virtual environment:
+    
+    ```bash
+    python3 -m venv myenv
+    ```
 
-```bash
-pip install --upgrade git+https://github.com/your-name/your-repo.git
-```
+2.  Activate the virtual environment:
+
+    On Windows:
+
+    ```bash
+    myenv\Scripts\activate
+    ```
+
+    On macOS and Linux:
+
+    ```bash
+    source myenv/bin/activate
+    ```
+
+
+3.  Install the dependencies from requirements.txt:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  Install your package:
+
+
+    ```bash
+    pip install git+https://github.com/tam-dcreator/mypackage.git
+    ```
+
+    If you need to **install a later version** of your package, then use:  
+
+    ```bash
+    pip install --upgrade git+https://github.com/your-name/your-repo.git
+    ```
 
 ## Usage
 
