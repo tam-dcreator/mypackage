@@ -7,6 +7,7 @@ setup(
     license='MIT',
     description='EDSA example python package',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',  # Specify the content type for long description
     install_requires=['numpy'],
     url='https://github.com/tam-dcreator/mypackage>',
     author='tam-dcreator',
